@@ -1,0 +1,20 @@
+{
+  "name": "barelysupervised",
+  "interface": {
+    "displayName": "BarelySupervised"
+  },
+  "plugins": [
+    {
+      "name": "barelysupervised",
+      "source": {
+        "source": "local",
+        "path": "./plugins/barelysupervised"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

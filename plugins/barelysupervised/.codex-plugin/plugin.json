@@ -1,0 +1,23 @@
+{
+  "name": "barelysupervised",
+  "version": "2.0.0",
+  "description": "Coordinated analyst, architect, engineer, and reviewer software agents with distilled Personas.",
+  "keywords": [
+    "agents",
+    "subagents",
+    "software-development",
+    "coordination"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "BarelySupervised",
+    "shortDescription": "Coordinated multi-role software-development agents.",
+    "longDescription": "Installs analyst, architect, engineer, and reviewer role skills, a coordination skill, and a SessionStart hook that injects the main-agent routing context and installs the bundled subagent profiles into the project's .codex/agents directory.",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}
