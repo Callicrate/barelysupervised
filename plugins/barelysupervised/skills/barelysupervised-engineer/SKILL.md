@@ -75,11 +75,11 @@ A loaded skill runs in your current model and reasoning effort; it cannot switch
 - **high** — a non-trivial change or defect with several interacting files or failure paths.
 - **xhigh** — a subtle defect or change with elusive root cause or wide blast radius; deepen reproduction and failure-path checks.
 
-When you need genuine model diversity or independent parallel passes, dispatch the subagent profiles below instead of embodying the role here.
+For an isolated context, independent verification, model diversity, or truly parallel passes, promote to coordinated mode and dispatch the subagent profiles below instead of embodying the role here.
 
 ## Subagent profiles
 
-When subagent dispatch is available, each persona maps to an installed profile (under `.codex/agents`) that pins the persona, model, and reasoning effort. Dispatch one for an independent, isolated pass instead of embodying the role directly:
+In coordinated mode, each persona maps to an installed profile (under `.codex/agents`) that pins the persona, model, and reasoning effort. Dispatch one for an independent, isolated pass instead of embodying the role directly:
 
 | Agent | Persona | Model | Reasoning |
 | --- | --- | --- | --- |
