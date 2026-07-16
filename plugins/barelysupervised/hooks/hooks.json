@@ -7,7 +7,7 @@
           {
             "type": "command",
             "command": "python3 \"${PLUGIN_ROOT}/hooks/install_agents.py\"",
-            "command_windows": "python \"%PLUGIN_ROOT%\\hooks\\install_agents.py\"",
+            "commandWindows": "py \"%PLUGIN_ROOT%/hooks/install_agents.py\"",
             "statusMessage": "Loading BarelySupervised roster"
           }
         ]
