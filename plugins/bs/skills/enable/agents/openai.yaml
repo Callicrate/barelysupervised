@@ -1,0 +1,6 @@
+interface:
+  display_name: "BarelySupervised"
+  short_description: "Explicit multi-role task coordination"
+  default_prompt: "Use $bs:enable to review this repository with the smallest effective team and report prioritized, evidence-backed findings."
+policy:
+  allow_implicit_invocation: false

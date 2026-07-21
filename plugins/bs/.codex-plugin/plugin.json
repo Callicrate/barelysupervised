@@ -1,0 +1,33 @@
+{
+  "name": "bs",
+  "version": "2.1.0",
+  "description": "Native explicit-only coordination of built-in analyst, architect, engineer, and reviewer subagents with Personas.",
+  "author": {
+    "name": "BarelySupervised"
+  },
+  "keywords": [
+    "agents",
+    "subagents",
+    "software-development",
+    "coordination",
+    "explicit-invocation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BarelySupervised",
+    "shortDescription": "Explicit multi-role task coordination.",
+    "longDescription": "Provides one native explicit-only skill that coordinates current built-in subagents in the same thread with selected role contracts and Personas.",
+    "developerName": "BarelySupervised",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#6366F1",
+    "defaultPrompt": [
+      "Use $bs:enable to review this repository with the smallest effective team and report prioritized, evidence-backed findings."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

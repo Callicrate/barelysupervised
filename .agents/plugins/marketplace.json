@@ -6,13 +6,13 @@
   "plugins": [
     {
       "category": "Productivity",
-      "name": "barelysupervised",
+      "name": "bs",
       "policy": {
         "authentication": "ON_INSTALL",
         "installation": "AVAILABLE"
       },
       "source": {
-        "path": "./plugins/barelysupervised",
+        "path": "./plugins/bs",
         "source": "local"
       }
     }
