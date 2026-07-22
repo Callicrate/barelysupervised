@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/install_agents.py\"",
+            "commandWindows": "py \"%PLUGIN_ROOT%/hooks/install_agents.py\"",
+            "statusMessage": "Installing BarelySupervised agent profiles"
+          }
+        ]
+      }
+    ]
+  }
+}

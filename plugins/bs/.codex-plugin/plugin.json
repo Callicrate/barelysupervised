@@ -1,7 +1,7 @@
 {
   "name": "bs",
-  "version": "2.1.0",
-  "description": "Native explicit-only coordination of built-in analyst, architect, engineer, and reviewer subagents with Personas.",
+  "version": "2.1.1",
+  "description": "Explicit-only coordination that installs named analyst, architect, engineer, and reviewer agent profiles through a trusted SessionStart hook.",
   "author": {
     "name": "BarelySupervised"
   },
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "BarelySupervised",
     "shortDescription": "Explicit multi-role task coordination.",
-    "longDescription": "Provides one native explicit-only skill that coordinates current built-in subagents in the same thread with selected role contracts and Personas.",
+    "longDescription": "Provides one explicit-only coordination skill and a trusted SessionStart hook that installs named custom agent profiles into the current project's .codex/agents directory without overwriting existing files.",
     "developerName": "BarelySupervised",
     "category": "Productivity",
     "capabilities": [

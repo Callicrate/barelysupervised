@@ -1,6 +1,6 @@
 # BarelySupervised Codex plugin marketplace
 
-This repository is a Codex plugin marketplace for BarelySupervised, a native explicit-only coordination skill.
+This repository is a Codex plugin marketplace for BarelySupervised, an explicit-only coordination skill with installable custom agent profiles.
 
 ## Deploy
 
@@ -12,6 +12,7 @@ This repository is a Codex plugin marketplace for BarelySupervised, a native exp
    ```
 
 3. In the ChatGPT desktop app, open Plugins and enable BarelySupervised.
+4. Trust the plugin hook with `/hooks`, then start or resume a session so it installs missing profiles into the project's `.codex/agents` directory.
 
 ## Layout
 
@@ -20,4 +21,4 @@ This repository is a Codex plugin marketplace for BarelySupervised, a native exp
 
 ## What the plugin does
 
-BarelySupervised is inert until explicitly invoked as `$bs:enable <task>`. That invocation normally coordinates at least one built-in subagent in the current thread, selecting its role, Persona, model, and reasoning effort from private references; direct work is reserved for a narrow high-confidence exception. It has no startup hooks, session-context injection, or automatic profile-installation step.
+BarelySupervised is inert until explicitly invoked as `$bs:enable <task>`. A trusted SessionStart hook installs any missing bundled custom-agent profiles into `.codex/agents` without overwriting existing files, but does not inject coordination context. The explicit skill selects and dispatches the exact installed profile for its role and Persona; direct work is reserved for a narrow high-confidence exception.
