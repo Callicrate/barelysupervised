@@ -6,9 +6,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${PLUGIN_ROOT}/hooks/install_agents.py\"",
-            "commandWindows": "py \"%PLUGIN_ROOT%/hooks/install_agents.py\"",
-            "statusMessage": "Installing BarelySupervised agent profiles"
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/bootstrap.py\"",
+            "commandWindows": "py -3 \"%PLUGIN_ROOT%/hooks/bootstrap.py\"",
+            "statusMessage": "Bootstrapping BarelySupervised global profiles and skill"
           }
         ]
       }

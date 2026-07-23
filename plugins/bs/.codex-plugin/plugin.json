@@ -1,7 +1,7 @@
 {
   "name": "bs",
-  "version": "2.1.1",
-  "description": "Explicit-only coordination that installs named analyst, architect, engineer, and reviewer agent profiles through a trusted SessionStart hook.",
+  "version": "2.2.0",
+  "description": "Trusted bootstrap for 16 global custom agents and the explicit-only $bs skill.",
   "author": {
     "name": "BarelySupervised"
   },
@@ -12,11 +12,10 @@
     "coordination",
     "explicit-invocation"
   ],
-  "skills": "./skills/",
   "interface": {
     "displayName": "BarelySupervised",
-    "shortDescription": "Explicit multi-role task coordination.",
-    "longDescription": "Provides one explicit-only coordination skill and a trusted SessionStart hook that installs named custom agent profiles into the current project's .codex/agents directory without overwriting existing files.",
+    "shortDescription": "Global custom-agent bootstrap.",
+    "longDescription": "A trusted SessionStart hook installs 16 custom-agent profiles globally and installs the explicit-only bs coordinator skill.",
     "developerName": "BarelySupervised",
     "category": "Productivity",
     "capabilities": [
@@ -25,7 +24,7 @@
     ],
     "brandColor": "#6366F1",
     "defaultPrompt": [
-      "Use $bs:enable to review this repository with the smallest effective team and report prioritized, evidence-backed findings."
+      "After bootstrap, start a fresh session and use $bs to review the current repository changes with the smallest effective team."
     ],
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/icon.png"

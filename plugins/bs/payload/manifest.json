@@ -1,0 +1,26 @@
+{
+  "agents": {
+    "analyst-adaptive-sol-high.toml": "dc9e97e4d151c2c4c7fd8bbb9f64b49d943d96041c33099a7b460bdc4fbc6de1",
+    "analyst-evidence-terra-high.toml": "89d10533b2baa331873550d0a69a3870e3321897f5ee6e9a542db546b919307c",
+    "analyst-pragmatic-terra-medium.toml": "51fe7f87a3fc286320f757ebc30156a643034523137fbea8ddf97b06091c3889",
+    "analyst-structural-sol-xhigh.toml": "5648d39affc1f58428777edb2f22e2df1b9d5a361b140ff5f0214a1f1aa18bb3",
+    "architect-adaptive-terra-high.toml": "315038d6d8381910fe3177f509aeddfce9237797b55fdc94bbba8665a6a53f4d",
+    "architect-evidence-sol-xhigh.toml": "c166342608818b02e38c3d4bc722108b68a9d99387eb0ea5c7a9611cffbfa08c",
+    "architect-pragmatic-sol-high.toml": "1fc920d25c55844c913dc764b7b2c0380289c29224f21cc309881086addca5a1",
+    "architect-structural-terra-xhigh.toml": "b14bbd8431e2cdce0c566dcca47f761600ec5e47df7684c44e69c3abb7978aba",
+    "engineer-adaptive-sol-medium.toml": "35287a0824a1468eeca8554803d8363a48526afbd3436d007650f71875b337a5",
+    "engineer-evidence-terra-xhigh.toml": "d553631b28f8bef6531a284426689e94e21b42c1bd6a932cb6f46ae80090f387",
+    "engineer-pragmatic-terra-high.toml": "00303fc8242f25ff2c9f6ccf6060f54f36f1c9f08c0b2943e1a9c4eef071ea8e",
+    "engineer-structural-sol-high.toml": "f5cad073b2b895ff81b060bac35518029b96b87668ad899d7740019056781213",
+    "reviewer-critical-terra-high.toml": "73c902724ebc302d21d6850cb337db407a1f4f45103123584177b1845317f353",
+    "reviewer-evidence-sol-xhigh.toml": "51c892a56069e58434acce7af531e10c32cbe07173f1d6898cc5c599edbe1df9",
+    "reviewer-pragmatic-sol-high.toml": "62ff029b501211b1094cee532b6a917482543199086177a12dffc840011edd01",
+    "reviewer-structural-terra-xhigh.toml": "28fdbdf64b8093487e042acd1b5cae74dbc99cca37114cbc3fffa13eb891931d"
+  },
+  "plugin_version": "2.2.0",
+  "schema_version": 1,
+  "skill": {
+    "SKILL.md": "6fce402a5e22bffba151a628690c3ace98ff9c5ecb45e617d92e9813395b02e1",
+    "agents/openai.yaml": "87c000cdcfa90f7d2f914435eaf66a6063a90a02b3f790cf35d300c7df6ea2f4"
+  }
+}

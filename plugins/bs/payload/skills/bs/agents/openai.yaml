@@ -1,0 +1,6 @@
+interface:
+  display_name: "BarelySupervised"
+  short_description: "Explicit custom-agent coordination"
+  default_prompt: "Use $bs to review the current repository changes with the smallest effective team and report prioritized, evidence-backed findings."
+policy:
+  allow_implicit_invocation: false
