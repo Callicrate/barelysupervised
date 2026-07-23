@@ -1,6 +1,6 @@
 {
   "name": "bs",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Trusted bootstrap for 16 global custom agents and the explicit-only $bs skill.",
   "author": {
     "name": "BarelySupervised"
